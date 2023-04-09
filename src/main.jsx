@@ -10,6 +10,8 @@ import Home from './components/Home/Home';
 import Details from './components/layout/Details';
 import AppliedJobs from './components/Jobs/AppliedJobs';
 import Statics from './components/layout/Statics';
+import Blog from './components/layout/Blog';
+import NotFound from './components/layout/NotFound';
 
 const router = createBrowserRouter([
   {
@@ -45,6 +47,18 @@ const router = createBrowserRouter([
 
         path : 'statics',
         element: <Statics></Statics>,
+      },
+
+      {
+
+        path : 'blog',
+        element : <Blog/>
+      },
+
+      {
+
+        path : '*',
+        element : <NotFound></NotFound>
       }
     ],
   },
