@@ -1,13 +1,22 @@
-# b7a9-career-hub-RayhanUddinFarhad
-b7a9-career-hub-RayhanUddinFarhad created by GitHub Classroom
+# DevJobs Website
 
-Here is the live website link : https://candid-donut-e32f15.netlify.app/
+This is a DevJobs website that provides remote job listings across various categories. The website features a user-friendly interface that makes job browsing and application easy.
 
-It's a DevJobs website where you'll get severals features included:
+## Features
 
-**You'll  get Remote job by filtering ,
-**You'll get sseveral categories of jobs,
-**get an awesome userIInterface,
-**You'll get an applied jobs list after  applying.
+**Remote job filtering
+**Multiple job categories
+**Awesome user interface
+**Applied jobs list
 
+## Live Website
 
+Check out the live website at: https://candid-donut-e32f15.netlify.app/
+
+## Technology
+
+This website is built using modern web development tools and technologies to ensure fast, reliable, and easy maintenance. The code is available on GitHub, making it easy for developers to contribute, suggest changes, and report issues.
+
+## Deployment
+
+The website is deployed on Netlify, a cloud platform for static websites that ensures high availability and scalability.
