@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Banner from '../Header/Banner';
 import Category from './Category';
 import FeaturedJobs from './FeaturedJobs';
@@ -6,6 +6,17 @@ import { useLoaderData } from 'react-router-dom';
 
 const Home = () => {
     const data = useLoaderData()
+    const [seeAll, setSeeAll] = useState(false)
+
+    const showMore =  () => {
+
+
+        setSeeAll (true)
+    
+    
+    
+       }
+
     return (
         <div>
             <Banner></Banner>
@@ -25,10 +36,12 @@ const Home = () => {
     data &&
 
 
-data.map (data =>   <FeaturedJobs key = {data.id} data = {data}></FeaturedJobs>
+data.slice( 0, seeAll? 6: 4).map (data =>   <FeaturedJobs key = {data.id} data = {data}></FeaturedJobs>
 )
 }
 </div>
+
+<button onClick={showMore} className='btn-primary my-5'>See All Jobs</button>
             </div>
 
             
