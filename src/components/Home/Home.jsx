@@ -8,14 +8,14 @@ const Home = () => {
     const data = useLoaderData()
     const [seeAll, setSeeAll] = useState(false)
 
-    const showMore =  () => {
+    const showMore = () => {
 
 
-        setSeeAll (true)
-    
-    
-    
-       }
+        setSeeAll(true)
+
+
+
+    }
 
     return (
         <div>
@@ -28,23 +28,23 @@ const Home = () => {
                 <p>Explore thousands of job opportunities with all the information you need. Its your future</p>
 
 
-            <div className='grid lg:grid-cols-2 gap-5'>
+                <div className='grid lg:grid-cols-2 gap-5'>
 
 
-{
+                    {
 
-    data &&
+                        data &&
 
 
-data.slice( 0, seeAll? 6: 4).map (data =>   <FeaturedJobs key = {data.id} data = {data}></FeaturedJobs>
-)
-}
-</div>
+                        data.slice(0, seeAll ? 6 : 4).map(data => <FeaturedJobs key={data.id} data={data}></FeaturedJobs>
+                        )
+                    }
+                </div>
 
-<button onClick={showMore} className='btn-primary my-5'>See All Jobs</button>
+                <button onClick={showMore} className='btn-primary my-5'>See All Jobs</button>
             </div>
 
-            
+
         </div>
     );
 };
