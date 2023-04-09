@@ -9,6 +9,7 @@ import {
 import Home from './components/Home/Home';
 import Details from './components/layout/Details';
 import AppliedJobs from './components/Jobs/AppliedJobs';
+import Statics from './components/layout/Statics';
 
 const router = createBrowserRouter([
   {
@@ -38,6 +39,12 @@ const router = createBrowserRouter([
 
         path: "apply",
         element: <AppliedJobs></AppliedJobs>
+      },
+
+      {
+
+        path : 'statics',
+        element: <Statics></Statics>,
       }
     ],
   },

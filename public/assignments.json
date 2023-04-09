@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "assignmentName": "HTML and raw CSS",
+        "assignmentMark": 60
+    },
+    {
+        "id": 2,
+        "assignmentName": "Responsive website",
+        "assignmentMark": 60
+    },
+    {
+        "id": 3,
+        "assignmentName": "CSS framework",
+        "assignmentMark": 60
+    },
+    {
+        "id": 4,
+        "assignmentName": "Fundamental JavaScript",
+        "assignmentMark": 60
+    },
+    {
+        "id": 5,
+        "assignmentName": "JavaScript DOM",
+        "assignmentMark": 60
+    },
+    {
+        "id": 6,
+        "assignmentName": "API",
+        "assignmentMark": 60
+    },
+    {
+        "id": 7,
+        "assignmentName": "Debugging",
+        "assignmentMark": 60
+    },
+    {
+        "id": 8,
+        "assignmentName": "Basic React",
+        "assignmentMark": 60
+    }
+]
