@@ -22,6 +22,8 @@ const Home = () => {
 
 {
 
+    data &&
+
 
 data.map (data =>   <FeaturedJobs key = {data.id} data = {data}></FeaturedJobs>
 )

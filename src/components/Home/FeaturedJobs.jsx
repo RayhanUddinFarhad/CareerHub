@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const FeaturedJobs = ({data}) => {
     return (
@@ -28,7 +29,9 @@ const FeaturedJobs = ({data}) => {
     </div>
 
     <div className=" justify-end">
-      <button className="btn-primary">View Details</button>
+
+        <Link to={`/details/${data.id}`}>      <button className="btn-primary">View Details</button>
+</Link>
     </div>
   </div>
 </div>
