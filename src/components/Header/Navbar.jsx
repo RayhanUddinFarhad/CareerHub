@@ -7,11 +7,11 @@ const Navbar = () => {
     return (
         <div className='flex justify-between items-center'>
 
-            <div>
+            <Link to = "/">
 
 
                 <h1 className='text-4xl font-extrabold'>DevJobs</h1>
-            </div>
+            </Link>
 
 
 
@@ -39,7 +39,7 @@ const Navbar = () => {
 
 </div>
 
-            <div className={`flex lg:block flex-col lg:flex-wrap lg:flex-row static space-y-2 lg:space-y-0 lg:space-x-5 font-bold text-xl items-center  ${toggle ? 'block p-3 bg-white lg:bg-transparent w-full card-bordered lg:max-w-max ' : 'hidden'}`}>
+            <div className={`flex lg:block flex-col lg:flex-wrap lg:flex-row static space-y-2 lg:space-y-0 lg:space-x-5 font-bold text-xl items-center  ${toggle ? 'block p-3 bg-white lg:bg-transparent w-full  lg:max-w-max ' : 'hidden'}`}>
 
 
                 <Link to = "/">Home</Link>
