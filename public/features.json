@@ -4,7 +4,7 @@
     
       {
         "id": 1,
-        "company_logo": "https://example.com/logo1.png",
+        "company_logo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/ABC-2021-LOGO.svg",
         "job_title": "Software Engineer",
         "company_name": "ABC Inc.",
         "remote_or_onsite": "Remote",
@@ -24,7 +24,7 @@
       },
       {
         "id": 2,
-        "company_logo": "https://example.com/logo2.png",
+        "company_logo": "https://www.mmaglobal.com/files/styles/member_logo_large/public/logos/xyzcorporatepro.png?itok=ehOUsiQj",
         "job_title": "Marketing Manager",
         "company_name": "XYZ Corp.",
         "remote_or_onsite": "Onsite",
@@ -44,7 +44,7 @@
       },
       {
         "id": 3,
-        "company_logo": "https://example.com/logo3.png",
+        "company_logo": "https://123.design/wp-content/uploads/2018/10/123-logo-colored.jpg",
         "job_title": "Graphic Designer",
         "company_name": "123 Designs",
         "remote_or_onsite": "Onsite",
@@ -65,7 +65,7 @@
 
       {
         "id": 4,
-        "company_logo": "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png",
+        "company_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/800px-Google_2015_logo.svg.png",
         "job_title": "Technical Database Engineer",
         "company_name": "Google",
         "remote_or_onsite": "Onsite",
@@ -90,7 +90,7 @@
 
       {
         "id": 5,
-        "company_logo": "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg",
+        "company_logo": "https://static1.colliderimages.com/wordpress/wp-content/uploads/2020/11/netflix-most-popular-shows.jpg",
         "job_title": "Senior Product Engineer",
         "company_name": "Netflix",
         "remote_or_onsite": "Remote",
@@ -115,7 +115,7 @@
 
       {
         "id": 6,
-        "company_logo": "https://www.tesla.com/sites/default/files/images/tesla_logo_0.png",
+        "company_logo": "https://www.pngkit.com/png/detail/195-1957735_tesla-logo-tesla-model-x-logo.png",
         "job_title": "Software Engineer",
         "company_name": "Tesla",
         "remote_or_onsite": "Onsite",
