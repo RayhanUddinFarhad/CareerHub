@@ -1,0 +1,141 @@
+[
+
+
+    
+      {
+        "id": 1,
+        "company_logo": "https://example.com/logo1.png",
+        "job_title": "Software Engineer",
+        "company_name": "ABC Inc.",
+        "remote_or_onsite": "Remote",
+        "location": "New York, NY",
+        "fulltime_or_parttime": "Full-time",
+        "salary": "$120,000 - $140,000 per year",
+        "job_description": "We're looking for a talented software engineer to join our team.",
+        "job_responsibility": "Develop new software features and maintain existing code.",
+        "educational_requirements": "Bachelor's degree in Computer Science or related field.",
+        "experiences": "5+ years of experience in software engineering.",
+        "contact_information": [
+          {
+            "phone": "+1 (555) 123-4567",
+            "email": "jobs@abcinc.com"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "company_logo": "https://example.com/logo2.png",
+        "job_title": "Marketing Manager",
+        "company_name": "XYZ Corp.",
+        "remote_or_onsite": "Onsite",
+        "location": "San Francisco, CA",
+        "fulltime_or_parttime": "Full-time",
+        "salary": "$100,000 - $120,000 per year",
+        "job_description": "We're seeking a marketing manager to lead our team.",
+        "job_responsibility": "Develop and execute marketing strategies.",
+        "educational_requirements": "Bachelor's degree in Marketing or related field.",
+        "experiences": "7+ years of experience in marketing.",
+        "contact_information": [
+          {
+            "phone": "+1 (555) 234-5678",
+            "email": "jobs@xyzcorp.com"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "company_logo": "https://example.com/logo3.png",
+        "job_title": "Graphic Designer",
+        "company_name": "123 Designs",
+        "remote_or_onsite": "Onsite",
+        "location": "Los Angeles, CA",
+        "fulltime_or_parttime": "Part-time",
+        "salary": "$50 - $75 per hour",
+        "job_description": "We're looking for a talented graphic designer to join our team.",
+        "job_responsibility": "Design graphics for various projects.",
+        "educational_requirements": "Bachelor's degree in Graphic Design or related field.",
+        "experiences": "3+ years of experience in graphic design.",
+        "contact_information": [
+          {
+            "phone": "+1 (555) 345-6789",
+            "email": "jobs@123designs.com"
+          }
+        ]
+      },
+
+      {
+        "id": 4,
+        "company_logo": "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png",
+        "job_title": "Technical Database Engineer",
+        "company_name": "Google",
+        "remote_or_onsite": "Onsite",
+        "location": "Mountain View, CA",
+        "fulltime_or_parttime": "Full-time",
+        "salary": "$120,000 - $150,000",
+        "job_description": "As a Technical Database Engineer, you will be responsible for designing, implementing and maintaining the databases that power Google's services.",
+        "job_responsibility": "Design and implement databases to support Google's services, Maintain and optimize existing databases, Develop tools to automate database operations, Collaborate with software engineers to ensure database functionality meets application needs.",
+        "educational_requirements": "Bachelor's or Master's degree in Computer Science or related field",
+        "experiences": "3+ years of experience as a database engineer",
+        "contact_information": [
+          {
+            "phone": "(123) 456-7890",
+            "email": "john.doe@google.com"
+          },
+          {
+            "phone": "(987) 654-3210",
+            "email": "jane.smith@google.com"
+          }
+        ]
+      },
+
+      {
+        "id": 5,
+        "company_logo": "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg",
+        "job_title": "Senior Product Engineer",
+        "company_name": "Netflix",
+        "remote_or_onsite": "Remote",
+        "location": "Any location",
+        "fulltime_or_parttime": "Full-time",
+        "salary": "$150,000 - $200,000",
+        "job_description": "As a Senior Product Engineer, you will be responsible for building and improving the products that power Netflix's streaming service.",
+        "job_responsibility": "Design and implement new features for Netflix's streaming service, Optimize performance and scalability of existing features, Collaborate with other engineers, designers and product managers to ensure product goals are met.",
+        "educational_requirements": "Bachelor's or Master's degree in Computer Science or related field",
+        "experiences": "5+ years of experience as a software engineer",
+        "contact_information": [
+          {
+            "phone": "(555) 555-1234",
+            "email": "john.smith@netflix.com"
+          },
+          {
+            "phone": "(555) 555-5678",
+            "email": "jane.doe@netflix.com"
+          }
+        ]
+      },
+
+      {
+        "id": 6,
+        "company_logo": "https://www.tesla.com/sites/default/files/images/tesla_logo_0.png",
+        "job_title": "Software Engineer",
+        "company_name": "Tesla",
+        "remote_or_onsite": "Onsite",
+        "location": "Palo Alto, CA",
+        "fulltime_or_parttime": "Full-time",
+        "salary": "$120,000 - $150,000",
+        "job_description": "As a Software Engineer at Tesla, you will be responsible for designing and implementing software to power Tesla's vehicles.",
+        "job_responsibility": "Design and implement software to control vehicle functionality, Collaborate with other engineers to ensure software meets vehicle requirements, Optimize performance and scalability of existing software, Troubleshoot and debug software issues.",
+        "educational_requirements": "Bachelor's or Master's degree in Computer Science or related field",
+        "experiences": "3+ years of experience as a software engineer",
+        "contact_information": [
+          {
+            "phone": "+1 (555) 123-4567",
+            "email": "jobs@tesla.com"
+          }
+        ]
+      }
+      
+      
+      
+    ]
+  
+  

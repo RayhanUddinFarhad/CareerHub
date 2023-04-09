@@ -1,0 +1,27 @@
+[
+    {
+      "id": "c1",
+      "logo": "https://i.ibb.co/4fT4x1r/accounts-1.png",
+      "name": "Technology",
+      "jobs_available": 300
+    },
+    {
+      "id": "c2",
+      "logo": "https://i.ibb.co/b5yyh99/business-1.png",
+      "name": "Marketing",
+      "jobs_available": 200
+    },
+    {
+      "id": "c3",
+      "logo": "https://i.ibb.co/zr1CLyz/chip-1.png",
+      "name": "Finance",
+      "jobs_available": 120
+    },
+    {
+      "id": "c4",
+      "logo": "https://i.ibb.co/V0GDdBJ/Frame.png",
+      "name": "Healthcare",
+      "jobs_available": 400
+    }
+  ]
+  
