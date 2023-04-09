@@ -9,6 +9,7 @@ const Details = () => {
     const { id } = useParams();
     const [job, setJob] = useState(null);
 
+
   useEffect(() => {
     fetch('/features.json')
       .then((response) => response.json())
@@ -17,6 +18,14 @@ const Details = () => {
         setJob(job);
       });
   }, [id]);
+
+  const handleApplyNow = () => {
+    const appliedJobs = JSON.parse(localStorage.getItem('appliedJobs')) || [];
+    appliedJobs.push(job);
+    localStorage.setItem('appliedJobs', JSON.stringify(appliedJobs));
+  }
+  
+  
 
   console.log (job)
 
@@ -50,7 +59,7 @@ const Details = () => {
 
     </div>
 
-    <div className=' text-left space-y-5'>
+    <div className=' text-left space-y-5 bg-blue-100 p-5'>
      <p className='text-xl font-bold text-left'>Job Details</p>
      <p className='flex  items-center'> <CurrencyDollarIcon className='w-5 mx-2 text-blue-500'></CurrencyDollarIcon> <span className='text-lg font-bold text-left'>Salary :</span> {job.salary}</p>
      <p className='flex  items-center'><DeviceTabletIcon className='w-5 mx-2 text-blue-500'></DeviceTabletIcon> <span className='text-lg font-bold text-left'>Job Title :</span>{job.job_title}</p>
@@ -59,7 +68,7 @@ const Details = () => {
      <p className='flex  items-center'><InboxIcon className='w-5 mx-2 text-blue-500'></InboxIcon> <span className='text-lg font-bold'>Email: </span> {job.contact_information[0].email} </p>
      <p className='flex  items-center'><MapIcon className='w-5 mx-2 text-blue-500'></MapIcon> <span className='text-lg font-bold'>Address : </span>{job.location}</p>
 
-     <button className='btn-primary'>Apply Now</button>
+     <button onClick={handleApplyNow} className='btn-primary'>Apply Now</button>
 
 
 
