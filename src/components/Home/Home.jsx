@@ -7,6 +7,7 @@ import { useLoaderData } from 'react-router-dom';
 const Home = () => {
     const data = useLoaderData()
     const [seeAll, setSeeAll] = useState(false)
+    console.log (data)
 
     const showMore = () => {
 
@@ -39,6 +40,8 @@ const Home = () => {
                         data.slice(0, seeAll ? 6 : 4).map(data => <FeaturedJobs key={data.id} data={data}></FeaturedJobs>
                         )
                     }
+
+
                 </div>
 
                 <button onClick={showMore} className='btn-primary my-5'>See All Jobs</button>

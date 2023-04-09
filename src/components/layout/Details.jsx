@@ -1,6 +1,6 @@
 import { data } from 'autoprefixer';
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 import { BeakerIcon, CurrencyDollarIcon, DeviceTabletIcon, PhoneIcon, InboxIcon, MapIcon  } from '@heroicons/react/24/solid'
 
 
@@ -8,6 +8,8 @@ const Details = () => {
 
     const { id } = useParams();
     const [job, setJob] = useState(null);
+    const navigate = useNavigate();
+
 
 
   useEffect(() => {
@@ -40,6 +42,9 @@ const Details = () => {
 
 
         </div>
+
+        <button onClick={() => navigate(-1)} className='btn-primary'>Go Back</button>
+
 
 
 {

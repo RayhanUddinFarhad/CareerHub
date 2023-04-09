@@ -7,7 +7,7 @@ const Navbar = () => {
     return (
         <div className='flex justify-between items-center'>
 
-            <Link to = "/">
+            <Link >
 
 
                 <h1 className='text-4xl font-extrabold'>DevJobs</h1>
@@ -42,7 +42,6 @@ const Navbar = () => {
             <div className={`flex lg:block flex-col lg:flex-wrap lg:flex-row static space-y-2 lg:space-y-0 lg:space-x-5 font-bold text-xl items-center  ${toggle ? 'block p-3 bg-white lg:bg-transparent w-full  lg:max-w-max ' : 'hidden'}`}>
 
 
-                <Link to = "/">Home</Link>
                 <Link to= "statics">Statics</Link>
                 <Link to= "/apply">Applied Jobs</Link>
                 <Link to = "blog">Blog</Link>
