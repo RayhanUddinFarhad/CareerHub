@@ -1,13 +1,28 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Banner from '../Header/Banner';
 import Category from './Category';
 import FeaturedJobs from './FeaturedJobs';
 import { useLoaderData } from 'react-router-dom';
 
 const Home = () => {
-    const data = useLoaderData()
+    // const data = useLoaderData()
+    const [feature, setFeature] = useState();
+
+
+
+    useEffect (() => { 
+
+        fetch (`features.json`)
+        .then (response => response.json())
+        .then  (data => setFeature(data))
+
+
+
+
+    }, [feature])
+
+
     const [seeAll, setSeeAll] = useState(false)
-    console.log (data)
 
     const showMore = () => {
 
@@ -34,10 +49,10 @@ const Home = () => {
 
                     {
 
-                        data &&
+                        feature &&
 
 
-                        data.slice(0, seeAll ? 6 : 4).map(data => <FeaturedJobs key={data.id} data={data}></FeaturedJobs>
+                        feature.slice(0, seeAll ? 6 : 4).map(data => <FeaturedJobs key={data.id} data={data}></FeaturedJobs>
                         )
                     }
 
