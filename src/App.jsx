@@ -12,7 +12,10 @@ function App() {
 
   return (
     <div className="App space-y-10">
+
+
       <Navbar></Navbar>
+
       <Outlet/>
       <ToastContainer/>
       

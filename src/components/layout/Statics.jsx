@@ -1,6 +1,11 @@
 import React, { useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+// import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import { PieChart, Pie, Cell, Tooltip, ResponsiveContainer } from 'recharts';
+
+const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', '#AF19FF', '#FF1919', '#00E5FF', '#00FF2B'];
+
+
 
 const data = [
     {
@@ -45,55 +50,38 @@ const data = [
     },
   ];    
 const Statics = () => {
-    const [opacity, setOpacity] = useState({
-        marks: 1,
-      });
+
+
     
-      const handleMouseEnter = (o) => {
-        const { dataKey } = o;
-    
-        setOpacity({
-          ...opacity,
-          [dataKey]: 0.5,
-        });
-      };
-    
-      const handleMouseLeave = (o) => {
-        const { dataKey } = o;
-    
-        setOpacity({
-          ...opacity,
-          [dataKey]: 1,
-        });
-      };
    
-    return (
+      return (
         <div>
-             <div style={{ width: '100%' }}>
-      <ResponsiveContainer width="100%" height={300}>
-        <LineChart
-          width={500}
-          height={300}
-          data={data}
-          margin={{
-            top: 5,
-            right: 30,
-            left: 20,
-            bottom: 5,
-          }}
-        >
-          <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey="name" />
-          <YAxis />
-          <Tooltip />
-          <Legend onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} />
-          <Line type="monotone" dataKey="marks" strokeOpacity={opacity.marks} stroke="#8884d8" activeDot={{ r: 8 }} />
-        </LineChart>
-      </ResponsiveContainer>
-    </div>
-            
+
+          <h1 className='text-4xl font-bold'>Assignments Marks</h1>
+          <div style={{ width: '100%' }}>
+            <ResponsiveContainer width="100%" height={300}>
+              <PieChart>
+                <Pie
+                  data={data}
+                  dataKey= "marks"
+                  nameKey="name"
+                  cx="50%"
+                  cy="50%"
+                  outerRadius={80}
+                  fill="#8884d8"
+                  label={(entry) => entry.name}
+                >
+                  {data.map((entry, index) => (
+                    <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+                  ))}
+                </Pie>
+                <Tooltip />
+              </PieChart>
+            </ResponsiveContainer>
+          </div>
         </div>
-    );
+      );
+      
 };
 
 export default Statics;

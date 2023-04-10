@@ -28,7 +28,7 @@ const Details = () => {
     const appliedJobs = JSON.parse(localStorage.getItem('appliedJobs')) || [];
     appliedJobs.push(job);
     localStorage.setItem('appliedJobs', JSON.stringify(appliedJobs));
-    toast.success("Job  applied successfully!  ")
+    toast.success("Job  applied successfully! ")
 
 
 
