@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { BeakerIcon, CurrencyDollarIcon, DeviceTabletIcon, PhoneIcon, InboxIcon, MapIcon, MapPinIcon } from '@heroicons/react/24/solid'
+
 
 const AppliedJobs = () => {
     const appliedJobs = JSON.parse(localStorage.getItem('appliedJobs')) || [];
@@ -20,6 +22,17 @@ const AppliedJobs = () => {
 
     return (
         <div className='space-y-5 '>
+            <div className='h-96 flex justify-center items-center bg-blue-100 mb-5'>
+        <h1 className='text-3xl font-bold'>Applied Jobs</h1>
+
+
+
+
+
+      </div>
+
+
+
             <select className="select select-bordered w-full max-w-xs" value={selectedOption} onChange={handleSelectOption}>
                 <option value="">All Jobs</option>
                 <option value="remote">Remote Jobs</option>
@@ -42,8 +55,8 @@ const AppliedJobs = () => {
                         </div>
 
                         <div className='flex space-x-5'>
-                            <p>{job.location}</p>
-                            <p>{job.salary}</p>
+                            <p className='flex'> <MapPinIcon className='w-6'></MapPinIcon> {job.location}</p>
+                            <p className='flex'><CurrencyDollarIcon className='w-6 '></CurrencyDollarIcon>{job.salary}</p>
                         </div>
                     </div>
 

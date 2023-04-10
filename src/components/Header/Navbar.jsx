@@ -39,7 +39,7 @@ const Navbar = () => {
 
             </div>
 
-            <div className={`flex lg:block flex-col lg:flex-wrap lg:flex-row static space-y-2 lg:space-y-0 lg:space-x-5 font-bold text-xl items-center  ${toggle ? 'block p-3 bg-white lg:bg-transparent w-full  lg:max-w-max ' : 'hidden'}`}>
+            <div className={`flex lg:block flex-col lg:flex-wrap lg:flex-row static space-y-2 lg:space-y-0 lg:space-x-5 font-bold text-xl items-center   ${toggle ? 'block ' : 'hidden'}`}>
 
                 <Link to="/">Home</Link>
 

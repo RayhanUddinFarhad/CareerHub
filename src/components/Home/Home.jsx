@@ -59,7 +59,7 @@ const Home = () => {
 
                 </div>
 
-                <button onClick={showMore} className='btn-primary my-5'>See All Jobs</button>
+                <button onClick={showMore} className={`${!seeAll ? 'btn-primary my-5' : 'hidden'}`}>See All Jobs</button>
             </div>
 
 

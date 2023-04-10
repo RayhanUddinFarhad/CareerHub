@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { BeakerIcon, CurrencyDollarIcon, DeviceTabletIcon, PhoneIcon, InboxIcon, MapIcon, MapPinIcon } from '@heroicons/react/24/solid'
+
 
 const FeaturedJobs = ({ data }) => {
     return (
@@ -24,8 +26,8 @@ const FeaturedJobs = ({ data }) => {
                         <div className='flex justify-around'>
 
 
-                            <p>{data.location}</p>
-                            <p>{data.salary}</p>
+                            <p className='flex'><MapPinIcon className='w-6'></MapPinIcon> {data.location}</p>
+                            <p className='flex'><CurrencyDollarIcon className='w-6 '></CurrencyDollarIcon>{data.salary}</p>
                         </div>
 
                         <div className=" justify-end">

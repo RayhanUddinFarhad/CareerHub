@@ -4,6 +4,8 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './components/Header/Navbar'
 import { Outlet } from 'react-router-dom'
+import { ToastContainer, toast } from 'react-toastify';
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,6 +14,7 @@ function App() {
     <div className="App space-y-10">
       <Navbar></Navbar>
       <Outlet/>
+      <ToastContainer/>
       
     </div>
   )
