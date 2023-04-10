@@ -2,12 +2,12 @@
 
 This is a DevJobs website that provides remote job listings across various categories. The website features a user-friendly interface that makes job browsing and application easy.
 
-## Features
+##Features
 
-**Remote job filtering
-**Multiple job categories
-**Awesome user interface
-**Applied jobs list
+**Remote job filtering**
+**Multiple job categories**
+**Awesome user interface**
+**Applied jobs list**
 
 ## Live Website
 
