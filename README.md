@@ -18,7 +18,7 @@ Check out the live website at: https://candid-donut-e32f15.netlify.app/
 
 ## Technology
 
-This website is built using modern web development tools and technologies to ensure fast, reliable, and easy maintenance. The code is available on GitHub, making it easy for developers to contribute, suggest changes, and report issues.
+This website is built using React js and modern web development tools and technologies to ensure fast, reliable, and easy maintenance. The code is available on GitHub, making it easy for developers to contribute, suggest changes, and report issues.
 
 ## Deployment
 
