@@ -10,7 +10,7 @@ const FeaturedJobs = ({ data }) => {
             <div>
 
                 <div style={{height : "392px"}} className="card h-96 bg-base-100 shadow-xl">
-                    <figure ><img className='w-32 object-cover' src= {data.company_logo} alt="Shoes" /></figure>
+                    <figure ><img className='object-cover w-3/12' src= {data.company_logo} alt="Shoes" /></figure>
                     <div className="card-body text-left space-y-2">
                         <h2 className="card-title">{data.job_title}</h2>
                         <p>{data.company_name}</p>
